@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.main {
+	min-height: 100vh;
+	display: flex;
+
+	div {
+		width: 50%;
+	}
+
+	.left-side {
+		display: flex;
+		justify-content: center;
+		background-image: url("http://cech.uc.edu/it/jcr%3Acontent/MainContent/image_3/image.img.jpg/1486664612310.jpg");
+		background-size: cover;
+
+		&__container {
+			height: 90vh;
+			flex-basis: 100%;
+			border: 1px solid red;
+		}
+	}
+
+
+}
